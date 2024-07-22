@@ -1,0 +1,12 @@
+{
+	"recommendations": [
+		"gruntfuggly.todo-tree",
+		"aaron-bond.better-comments",
+		"dbaeumer.vscode-eslint",
+		"esbenp.prettier-vscode",
+		"leizongmin.node-module-intellisense",
+		"yoavbls.pretty-ts-errors",
+		"prisma.prisma",
+		"christian-kohler.path-intellisense"
+	]
+}
