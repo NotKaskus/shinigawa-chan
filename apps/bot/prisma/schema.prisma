@@ -1,0 +1,23 @@
+datasource database {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+enum FeatureFlags {
+  UNDEFINED
+  DEV
+  BETA
+}
+
+model Blacklist {
+  guildId String @id @unique
+}
+
+model CoreSettings {
+  guildId            String              @id @unique
+  flags              FeatureFlags[]
+}

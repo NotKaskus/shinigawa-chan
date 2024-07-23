@@ -1,0 +1,20 @@
+## Builds ##
+dist
+
+## Dependencies ##
+package-lock.json
+bun.lockb
+
+## Package manager ##
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
+## Env ##
+.env*
+!.env.example
+!.env.test
