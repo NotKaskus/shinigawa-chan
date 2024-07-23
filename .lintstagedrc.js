@@ -1,6 +1,6 @@
 module.exports = {
 	'*.{mjs,cjs,js,ts}': [
-		'eslint --fix', //
+		'eslint --fix --ext js,ts', //
 		'prettier --write --log-level=warn "**/*.{mjs,cjs,js,ts}"'
 	],
 	'*.{json,yml,yaml,md}': [
